@@ -1,0 +1,31 @@
+/* media query */
+@media (max-width:950px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 760px){
+    .menu-icon{
+        display: block;
+    }
+    .card-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .banner .banner-content h1{
+        font-size:3rem;
+    }
+    .detailsCard .add-btn{
+        padding: .5rem 0;
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
